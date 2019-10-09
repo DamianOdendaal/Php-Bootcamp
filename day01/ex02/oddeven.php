@@ -11,12 +11,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-echo "enter a number: ";
-$num = fopen("php://stdin", "r");
-while (!feof($num)
+echo "Enter a number:";
+while (!feof(STDIN)
 {
+	$num = fopen("php://stdin", "r");
     $read = fgets($num);
-    if (is_numeric(trim($read)))
+	$read = trim($read);
+    if (is_numeric($read))
     {
         if ($read % 2 == 0)
             echo "The number $read is even";
@@ -25,7 +26,6 @@ while (!feof($num)
     }
     else
         echo "'$read' is not a number";
+	echo "Enter a number"
 }
-
-
 ?>
