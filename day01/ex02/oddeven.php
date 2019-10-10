@@ -11,21 +11,19 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-echo "Enter a number:";
-while (!feof(STDIN)
+echo "Enter a number: ";
+while ($var = fgets(STDIN))
 {
-	$num = fopen("php://stdin", "r");
-    $read = fgets($num);
-	$read = trim($read);
-    if (is_numeric($read))
+    $var = trim($var);
+    if (is_numeric($var))
     {
-        if ($read % 2 == 0)
-            echo "The number $read is even";
+        if ($var % 2 == 0)
+            echo "The number $var is even\n";
         else
-            echo "The number $read is odd";
+            echo "The number $var is odd\n";
     }
     else
-        echo "'$read' is not a number";
-	echo "Enter a number"
+        echo "'$var' is not a number\n";
+	echo "Enter a number: ";
 }
 ?>
