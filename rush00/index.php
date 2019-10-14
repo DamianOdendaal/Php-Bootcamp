@@ -54,7 +54,7 @@
         <div class = "menu_bar">
             <ul>
                 <li class = "active"><a href = "">Login</a></li>
-                <li><a href = "">Sign Up</a></li>
+<!--                <li><a href = "">Sign Up</a></li>   -->
                 <li><a href = "">Cart</a></li>
                 <li><a href = "">Products</a>
                     <div class = "first">
@@ -72,5 +72,10 @@
             </ul>
         </div>
     </body>
+<!-- 
 
+
+Take a look at takealot and make some fixes tomorrow
+
+-->
 </html>
