@@ -2,11 +2,10 @@
 	<head>
 		<style>
 			body {
-			background-image: url('https://images.unsplash.com/photo-1564041761226-13f56d0869f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1570&q=80');
-		  	-webkit-background-size: cover;
- 		 	-moz-background-size: cover;
-  			-o-background-size: cover;
-  			background-size: cover;
+			background-image: url('https://images.unsplash.com/photo-1540349220179-09d3866f2e74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80');
+			background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
 		}
 		p {
 		color: #fff;
