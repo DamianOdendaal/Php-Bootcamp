@@ -2,10 +2,7 @@
     <head>
         <style>
            body {
-                background-image: url('https://images.unsplash.com/photo-1513462533974-d5eea7f8cac5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
+                background-color:white; 
                 font-family: calibri;
                 font-size: 20px;
            }
@@ -60,19 +57,26 @@
                padding: 10px auto;
                text-align:center;
            }
-           #login
-           {
-               color: white;
-           }
+           .column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            height: 300px; 
+            }
+            .row {
+                display: table;
+            }
+            * {
+            box-sizing: border-box;
+            }
         </style>
         <title>ft_minishop</title>
         <link rel = "stylesheet" href = " https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class = "header">
-            <i><h1 style = "margin-top:1%;">The Budd Doctor</h1></i>
+            <h1 style = "margin-top:1%;">The Budd Doctor</h1>
         </div>
-        <!-- <img src = "https://www.youtube.com/watch?v=ZFy7RdZWwj8"> -->
         <div class = "menu_bar">
             <ul>
                 <li class = "active" id = "login"><a href = "login.php"><i class="fas fa-bong"></i>Login</a></li>
@@ -86,18 +90,31 @@
                             <li><a href = "">Hybrid</a></li>
                             <li><a href = "">Da Good Good</a></li>
                         </ul>
-
+​
                     <div>
                 </li>
                 <li><a href = "">About Us</a></li>
                 <li><a href = "">Contact us</a></li>
             </ul>
         </div>
+        </br></br></br>
+        <div class="row">
+            <div class="column" style="background-image: url('https://images.unsplash.com/photo-1520224855316-280b2e6afca1?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');">
+                <h2>Column 1</h2>
+                    <p>Some text..</p>
+        </div>
+        <div class="column" style="background-image: url('https://images.unsplash.com/photo-1457573399415-1154bfe3ff71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');">
+            <h2>Column 2</h2>
+                <p>Some text..</p>
+        </div>
+        <div class="column" style="background-image: url('https://images.unsplash.com/photo-1560999448-1288f5c62468?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'); ">
+            <h2>Column 3</h2>
+                <p>Some text..</p>
+        </div>
+        <!-- <div class="column" style="background-image: url('https://images.unsplash.com/photo-1536669402438-004d53bd9af5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');">
+            <h2>Column 3</h2>
+                <p>Some text..</p>
+        </div> -->
+        </div>
     </body>
-<!-- 
-
-
-Take a look at takealot and make some fixes tomorrow
-
--->
 </html>
