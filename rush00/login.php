@@ -26,13 +26,18 @@
 			color: white;
 			font-size: 20px;
 		}
+        .submit {
+			color: white;
+			font-size: 25px;
+            border: 2px;
+		}
         </style>
     </head>
    <body>
       <center><form>
            <p>Username: <input type="text" name="login"/></p>
            <p>Password: <input  type="password" name="passwd"/></p>
-           <a href = "index.php"><input type = "submit"></a>
+           <a class = "submit"  href = "index.php">submit</a>                                 <!-- ask Smash about this-->
 			<br/><br/><br/>
 			<a href = "register.php">Don't have an account?  Sign Up now</a>
        </form></center>

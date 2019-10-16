@@ -30,8 +30,8 @@
            <p>Last Name  <input  type="text" name="l_name"/></p>
            <p>Email   <input type="email" name = "email"/></p>
            <p>Password   <input type="password" name="password"/></p>
-           <p>Retype Password  <input type="password" name="password"/></p>
-           <a href "login.php"><input type = "submit"></a>
+           <p>Retype Password  <input type="password" name="password" /></p>
+           <input type = "submit" action ="php-bootcamp/rush00/index.php">
 			<br/><br/>
        </form>
    </body>

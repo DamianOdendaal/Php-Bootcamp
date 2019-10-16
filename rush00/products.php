@@ -1,3 +1,7 @@
+<?PHP
+    include('nav_bar.php');
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -21,7 +25,7 @@
 		<nav class = "nav_bar">
 			<h1 style = "text-align:center; font-size: 30px">The Budd Doctor</h1>
 		</nav>
-		<h4 style = "text-align:center;"><button ><a href = "inside_cart.php" >View Cart</a><i class="fa fa-shopping-cart" style="font-size:24px;"></i></button></h4>
+		<h4 style = "text-align:center;"><button ><a href = "cart.php" >View Cart</a><i class="fa fa-shopping-cart" style="font-size:24px;"></i></button></h4>
 		<table>
 				<tr>
 					<td><img src = "https://cdn.shopify.com/s/files/1/1090/7524/products/flower-space-nugs-high-potency-cannabis-2.jpg?v=1544594796" height = "20%" width = "40%"></br><span>Space Nugs</br>R49.99</br><button>add to cart<i class="fa fa-shopping-cart" style="font-size:24px;"></i></button></span></td>

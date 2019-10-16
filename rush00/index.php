@@ -1,65 +1,19 @@
+<?PHP
+    include('nav_bar.php');
+?>
+
 <html>
     <head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
            body {
-               background-image: url('https://images.unsplash.com/photo-1571101281124-93ab00fb9643?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80');
+               background-image: url('https://images.unsplash.com/photo-1559051668-e1fa58f25786?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80');
                background-repeat: no-repeat;
                background-size:cover;
+               /* background-position:center; */
                 background-color:white; 
                 font-family: calibri;
                 font-size: 20px;
-           }
-           .menu_bar {
-               margin-top: 60px;
-               background-color: #0F0C01;
-               text-align: center;
-               opacity: 0.9;
-               height: 75px;
-           }
-           .menu_bar ul {
-               display: inline-flex;
-               list-style: none;
-               color: black;
-               margin-top: 2px;
-               margin-left: -15px; 
-           }
-           .menu_bar li{
-               width: 120px;
-               margin: 15px;
-               padding: 15px;
-           }
-           .active, .menu_bar ul li:hover
-           {
-               background-color: purple;
-               border-radius: 3px;
-           }
-           .first{
-                display: none; 
-           }
-           .active, .menu_bar ul li:hover .first
-           {
-                display: block;
-                position: absolute;
-                background-color: #0C7331;
-                margin-top: 15px;
-				float: left
-           }
-           .active, .menu_bar ul li:hover .first ul
-           {
-               display: block;
-               margin: 10px;
-			   width: 100px;
-           }
-           .active, .menu_bar ul li a
-           {
-               color: #2CE3AB;
-               border-radius: 2px;
-               margin-bottom: 10px;
-           }
-           .header{
-               padding: 10px auto;
-               text-align:center;
            }
            .column {
             float: center;
@@ -87,27 +41,6 @@
         <title>ft_minishop</title>
     </head>
     <body>
-        <div class = "header">
-            <h1 style = "margin-top:1%;">The Budd Doctor</h1>
-        </div>
-        <div class = "menu_bar">
-            <ul>
-                <li class = "active" id = "login"><a href = "login.php">Login</a></li>
-                <li><a href = "">Sign Up</a></li>  
-                <li><a href = "cart.php">Cart</a></li>
-                <li><a href = "products.php">Products</a>
-                    <div class = "first">
-                        <ul>
-                            <li class = "strains"><a href = "sativa.php">Sativa</a></li>
-                            <li class = "strains"><a href = "indica.php">Indica</a></li>
-                            <li class = "strains"><a href = "hybrid.php">Hybrid</a></li>
-                        </ul>
-                    <div>
-                 </li>
-                <li><a href = "">About Us</a></li>
-               <li><a href = "https://web.whatsapp.com/">Contact us</a></li>
-            </ul>
-        </div>
         </br></br></br>
 		<table>
 				<tr>
