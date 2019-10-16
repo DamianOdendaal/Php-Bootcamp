@@ -94,7 +94,7 @@
             <ul>
                 <li class = "active" id = "login"><a href = "login.php">Login</a></li>
                 <li><a href = "">Sign Up</a></li>  
-                <li><a href = "">Cart</a></li>
+                <li><a href = "cart.php">Cart</a></li>
                 <li><a href = "products.php">Products</a>
                     <div class = "first">
                         <ul>

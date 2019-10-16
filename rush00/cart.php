@@ -13,11 +13,21 @@
                background-repeat: no-repeat;
                background-size:cover;
         }
+        h1 {
+            font-style: italic;
+            text-align: center;
+        }
+        p{
+    display:inline-flex;
+    padding:5px;
+    }
 		</style>
 	</head>
 	<body>
-
-		<nav class = "nav_bar">
+        <u><h1>Your shopping cart</h1></u></br>
+        <p style = "text-align:left;">Product</p> <span style = "text-align:right;">Qty &nbsp Remove &nbsp Total</span>
+        <hr>
+		<!-- <nav class = "nav_bar">
 			<h1 style = "text-align:center; font-size: 30px">The Budd Doctor</h1>
 		</nav>
 		<h4 style = "text-align:center;"><button ><a href = "inside_cart.php" >View Cart</a><i class="fa fa-shopping-cart" style="font-size:24px;"></i></button></h4>
@@ -37,6 +47,6 @@
 					<td><img src = "https://www.skunkvalley.com/uploads/5/0/2/1/5021289/s458557399251382535_p99_i1_w2560.jpeg" height = "10%" width = "30%"><br/><span>WTF</br>R49.99</br><button>add to cart<i class="fa fa-shopping-cart" style="font-size:24px;"></i></button></span></td>
 					<td><img src = "https://cdn.greenrush.com/media/8/4/8/1576848/triangle-kush-24-thc-5297.jpg" height = "20%" width = "40%"><br/><span>Barck O Bubba</br>R49.99</br><button>add to cart<i class="fa fa-shopping-cart" style="font-size:24px;"></i></button></span></td>
 				</tr>
-			</table>
+			</table> -->
 	</body>
 </html>
