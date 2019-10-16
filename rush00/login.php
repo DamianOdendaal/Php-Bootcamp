@@ -31,10 +31,10 @@
    <body>
       <center><form>
            <p>Username: <input type="text" name="login"/></p>
-           <p>Password: <input  type="text" name="passwd"/></p>
+           <p>Password: <input  type="password" name="passwd"/></p>
            <input type = "submit">
 			<br/><br/><br/>
-			<a href = "register.html">Don't have an account?  Sign Up now</a>
+			<a href = "register.php">Don't have an account?  Sign Up now</a>
        </form></center>
    </body>
 </html>

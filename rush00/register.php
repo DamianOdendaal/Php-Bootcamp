@@ -28,11 +28,10 @@
       <form>
            <p>First Name  <input type="text" name="f_name"/></p>
            <p>Last Name  <input  type="text" name="l_name"/></p>
-           <p>Email   <input type="text" name = "email"/></p>
-           <p>Retype Email <input type="text" name="email"/></p>
-           <p>Password   <input type="text" name="password"/></p>
-           <p>Retype Password  <input type="text" name="password"/></p>
-           <input type = "submit">
+           <p>Email   <input type="email" name = "email"/></p>
+           <p>Password   <input type="password" name="password"/></p>
+           <p>Retype Password  <input type="password" name="password"/></p>
+           <a href "login.php"><input type = "submit"></a>
 			<br/><br/>
        </form>
    </body>
