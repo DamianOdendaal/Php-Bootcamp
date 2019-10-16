@@ -66,14 +66,15 @@
                 <li class = "active" id = "login"><a href = "index.php">Home</a></li>
                 <li><a href = "">Sign Up</a></li>  
                 <li><a href = "products.php">Products</a>
-                    <div class = "first">
-                        <ul>
-                            <li class = "strains" style = "margin-left:0%;"><a href = "sativa.php">Sativa</a></li>
-                            <li class = "strains" style = "margin-left:0%;"><a href = "indica.php">Indica</a></li>
-                            <li class = "strains" style = "margin-left:0%;"><a href = "hybrid.php">Hybrid</a></li>
-                        </ul>
+                <div class = "first">
+                    <ul>
+                        <li class = "strains" style = "margin-left:0%;"><a href = "sativa.php">Sativa</a></li>
+                        <li class = "strains" style = "margin-left:0%;"><a href = "indica.php">Indica</a></li>
+                        <li class = "strains" style = "margin-left:0%;"><a href = "hybrid.php">Hybrid</a></li>
+                    </ul>
                     <div>
-                 </li>
+                        </li>
+                        <li><a href = "user_details.php">My Account</a>
                <li><a href = "https://web.whatsapp.com/">Contact us</a></li>
             </ul>
         </div>

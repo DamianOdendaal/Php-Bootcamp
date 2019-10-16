@@ -5,39 +5,8 @@
 <html>
     <head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <style>
-           body {
-               background-image: url('https://images.unsplash.com/photo-1559051668-e1fa58f25786?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80');
-               background-repeat: no-repeat;
-               background-size:cover;
-               /* background-position:center; */
-                background-color:white; 
-                font-family: calibri;
-                font-size: 20px;
-           }
-           .column {
-            float: center;
-            width: 33.33%;
-            padding: 50px;
-            height: 300px; 
-            }
-            .row {
-                display: table;
-            }
-			.first a {
-				text-align:center;
-			}
-           .active, .menu_bar ul li:hover .first ul li{
-		   	width:150px;
-			padding:10px;
-		   }
-			.strains {
-				text-align: left;
-			}
-            td {
-                text-align:center;
-            }
-        </style>
+	<link rel="stylesheet" href="style.css">
+         
         <title>ft_minishop</title>
     </head>
     <body>
