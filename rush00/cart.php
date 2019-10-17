@@ -1,5 +1,8 @@
 <?PHP
+
     include('nav_bar.php');
+	session_start();
+	var_dump($_SESSION['cart']); 			//make sure this works at school and finish the video that needa watch 
 ?>
 <html>
 	<head>
